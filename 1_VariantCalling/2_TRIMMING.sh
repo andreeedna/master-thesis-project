@@ -1,9 +1,32 @@
 #!/bin/bash
 
-#input directory (fastq files)
-in_dir=fastq_files
-#output directory (trimmed fastq files)
-trim_dir=trimmed_fastq
+## ---------------------------
+##
+## Script name: TRIMMING.sh
+##
+## Purpose of script:
+##      perform an automatic reads trimming
+##
+## Usage:
+##      ./TRIMMING.sh <fastq_dir> <fastq_trim_dir>
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
+##
+## Notes:
+##      before running the script you need to install Trimmomatic
+##      *automatic install with ./requirement.txt*
+##
+##	remember to modify the trimming parameters based on your quality analysis
+##
+## ---------------------------
+
+in_dir=$1
+trim_dir=$2
 
 mkdir $trim_dir
 

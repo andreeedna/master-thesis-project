@@ -1,14 +1,28 @@
-## DESCRIPTION:
-#THIS SCRIPT TAKES AS INPUT THE PDB OF TEMPLATE AND THE SEQUENCE (in ALI format)
-#TO PERFORM THE ALIGNMENT WITH MODELLER
+## ---------------------------
+##
+## Script name: ALIGN.py
+##
+## Purpose of script:
+##      this script take as input the pdb og f template and the sequence (in ALI format)
+##      to perform the alignment wirh modeller
+##
+## Usage:
+##	python3 ALIGN.py PDB chain sequence.ali > align.log
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
+##
+## Notes:
+##	PDB Template: 5ldw.pdb (chain N)
+##	Sequence: Caretta_ND2.ali
+##	python3 2_ALIGN.py 5ldw N ND2_Caretta.ali > align.log
+##
+## ---------------------------
 
-#PDB Template: 5ldw.pdb (chain N)
-#Sequence: ND2_Caretta.ali
-
-## USAGE:
-# python3 2_ALIGN.py PDB chain sequence.ali > align.log
-
-# python3 2_ALIGN.py 5ldw N ND2_Caretta.ali > align.log
 
 import sys
 from modeller import *

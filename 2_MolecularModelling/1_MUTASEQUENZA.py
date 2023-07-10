@@ -1,11 +1,27 @@
-## DESCRIPTION:
-#THIS SCRIPT TAKES AS INPUT A FILE CONTAINING THE SEQUENCE TO BE MUTATED AND THE MUTATIONS 
-#TO RETURN AS OUTPUT THE MUTATED SEQUENCE
+## ---------------------------
+##
+## Script name: MUTASEQUENZA.py
+##
+## Purpose of script:
+##      this script take a file text with only the sequence and print the
+##	mutated sequence (used for FoldX)
+##
+## Usage:
+##      python3 MUTASEQUENZA.py file_name mut1 mut2 mut3...
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
+##
+## Notes:
+##      the mutation format must be xxxNxxx
+##      example: Ala103Thr
+##
+## ---------------------------
 
-#MUT FORMAT: xxxNxxx -> Ala103Thr
-
-## USAGE:
-# python3 1_MUTASEQUENZA.py file_name mut1 mut2 mut3...
 
 import sys
 

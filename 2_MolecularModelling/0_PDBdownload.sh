@@ -1,6 +1,21 @@
 #!/bin/bash
 
-# Script to download pdb template files used
+## ---------------------------
+##
+## Script name: PDBdownload.sh
+##
+## Purpose of script:
+##      download the templates used in this repository (not mandatory)
+##
+## Usage:
+##      ./PDBdownload.sh
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
 
 if ! command -v curl &> /dev/null
 then

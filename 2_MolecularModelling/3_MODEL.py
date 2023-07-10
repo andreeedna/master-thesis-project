@@ -1,12 +1,23 @@
-## DESCRIPTION:
-#THIS SCRIPT TAKES AS INPUT THE ALIGNMENT TO PERFORM THE MODELLING OF THE QUERY SEQUENCE
+## ---------------------------
+##
+## Script name: MODEL.py
+##
+## Purpose of script:
+##      this script perform the modelling of the query sequence
+##
+## Usage:
+##      python3 MODEL.py PDB-QUERY.ali > model.log
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
 
-## USAGE:
-# python3 3_MODEL.py PDB-QUERY.ali > model.log
 
 from modeller import *
 from modeller.automodel import *
-#from modeller import soap_protein_od
 import sys
 
 env = Environ()

@@ -1,8 +1,19 @@
-## DESCRIPTION:
-#THIS SCRIPT PERFORM THE EVALUATION OF THE MODELS GENERATED WITH MODELLER
-
-## USAGE:
-# python3 4_EVALUATE.py query.pdb
+## ---------------------------
+##
+## Script name: EVALUATE.py
+##
+## Purpose of script:
+##      this script perform the evaluation of the model generated with mdoeller
+##
+## Usage:
+##      python3 EVALUATE.py query.pdb
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
 
 from modeller import *
 from modeller.scripts import complete_pdb

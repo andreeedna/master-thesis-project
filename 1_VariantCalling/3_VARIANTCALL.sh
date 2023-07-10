@@ -1,11 +1,36 @@
 #!/bin/bash
 
-#input directory
-in_dir=trimmed_fastq
-#this is the reference genome fasta - before must run bowtie-build
-reference=FR694649.1.fasta
-#output directory
-out_dir=output
+## ---------------------------
+##
+## Script name: VARIANTCALL.sh
+##
+## Purpose of script:
+##	perform an automatic variant calling
+##
+## Usage:
+##      ./VARIANTCALL.sh <fastq_trim_dir> <reference_genome> <output_dir>
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
+##
+## Notes:
+##      before running the script you need to install bowtie2, samtools and bcftools
+##	on commandline:
+##      *sudo apt install bowtie2 samtools bcftools*
+##
+##	before running the script the genome must index the genome:
+##	*bowtie2-build <reference_in> <bt2_index_base>*
+##
+## ---------------------------
+
+
+in_dir=$1
+reference=$2 #this must be with .fasta extecion
+out_dir=$3
 
 mkdir $out_dir
 

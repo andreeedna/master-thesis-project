@@ -1,9 +1,30 @@
 #!/bin/bash
 
-#input directory (fastq)
-in_dir=fastq_files
-#output directory (fastqc analysis)
-out_dir=fastqc_analysis
+## ---------------------------
+##
+## Script name: FASTQC.sh
+##
+## Purpose of script:
+##	perform an automatic analysis of quality reads with fastqc
+##
+## Usage:
+##	./FASTQC.sh <fastq_dir> <fastqc_dir>
+##
+## Author: Andrea Ninni
+##
+## Copyright (c) Andrea Ninni, 2022
+## Email: andrea.ninni@uniroma2.it
+##
+## ---------------------------
+##
+## Notes:
+##	before running the script you need to install fastqc on command-line
+##	*sudo apt install fastqc*
+##
+## ---------------------------
+
+in_dir=$1
+out_dir=$2
 
 mkdir fastqc_analysis
 
