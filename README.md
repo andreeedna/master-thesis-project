@@ -1,7 +1,7 @@
 
 # My master thesis project 🐢
 [![Download Thesis PDF](https://img.shields.io/badge/Thesis_ITA-PDF-blue)](MasterThesisITA.pdf)
-[![Download Thesis PDF](https://img.shields.io/badge/Article-Marine_Biology-green)]()
+[![Download Thesis PDF](https://img.shields.io/badge/Article-Marine_Biology-green)](https://link.springer.com/article/10.1007/s00227-023-04325-x)
 
 This is the repository of my master thesis project titled:  
 > :uk: Next Generation Sequencing of the Caretta caretta mitogenome for identification of polymorphisms and analysis of their functional effect on protein structures
