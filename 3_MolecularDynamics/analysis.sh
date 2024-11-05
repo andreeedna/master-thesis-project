@@ -1,3 +1,0 @@
-## ANALYSIS
-
-# PCA and COVARIANCE
